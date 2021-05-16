@@ -1,0 +1,233 @@
+<html manifest="offlinexmb.cache"><!--  -->
+<head>
+<meta charset="utf-8">
+<title>PS4 Exploit by Games_World(Offline ver 5.05/6.72/7.02/7.5X)</title>
+<style type="text/css">
+body {
+ 	background-image: url('main.jpg');
+height: 100%;
+ background-position: center;
+ background-size: cover;
+background-attachment: fixed;
+background-repeat:no-repeat;
+margin: 0;
+height: 100%;
+padding: 0;
+overflow: hidden;
+font-family: sans-serif;
+font-size: 20px;
+font-weight: bold;
+text-align: center;  
+width: 100%;
+overflow: hidden;
+
+ }
+ button {
+width: 130px;
+height: 30px;
+text-align: center;
+text-decoration: none;
+font-size: 12px;
+-webkit-transition-duration: 0.4s;
+transition-duration: 0.4s;
+cursor: pointer;
+font-style:italic;
+background-color: auto;
+border-radius: 10px;
+}
+button:hover {
+          background-color: transparent;
+color: black;
+border-radius: 35px;
+font-family:Almendra Display;
+font-style:italic;
+color:white;
+font-size: 16px;
+fon-weight:bold
+}
+#clock{
+ float:right;
+ margin-right:2.25%;
+ margin-top: 18px;
+ font-weight:bold;
+ font-size:18px;
+  color: white;
+  font-family: Almendra Display;
+			font-style:italic;
+}
+#date {
+ float:left;
+ margin-left:1.25%;
+ font-weight:bold;
+ margin-top: 18px;
+ font-size:18px;
+ color: white;
+ font-family: Almendra Display;
+			font-style:italic;
+}
+ .content {
+  width:80%;
+  margin-left:7.5%;
+  background:rgba(0,0,0,0.5);
+  color:white;
+  margin-top:-1%;
+  font-size:20px;
+  text-align:center;
+  border-radius:25px;
+  padding:20px;
+  line-height:55px;
+ }
+ .title {
+  font-size:40px;
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-weight:bolder;
+  margin-bottom:10px;
+ }
+ .yellow {
+  color:yellow;
+ }
+ .hue {
+  color:yellow;
+  padding:10px;
+  border-radius:10px;
+  animation:hue 5s linear infinite;
+  -webkit-animation: hue 5s linear infinite;
+  box-shadow: 0px 0px 50px yellow;
+  color:white;
+  background:rgba(255,255,0,0.4);
+ }
+ .hue:hover{
+  color:yellow;
+  background:transparent;
+ }
+ @keyframes hue{
+ 0%{
+ filter:hue-rotate(0deg);
+ -webkit-filter:hue-rotate(0deg);
+ }
+ 10%{
+ box-shadow: 0px 1px 50px yellow;
+ }
+ 20%{
+ box-shadow: 1px 1px 50px yellow;
+ }
+ 30%{
+ box-shadow: 1px 0px 50px yellow;
+ }
+ 40%{
+  box-shadow: 1px -1px 50px yellow;
+ }
+ 50%{
+ box-shadow: 0px -1px 50px yellow;
+ }
+ 60%{
+ box-shadow: -1px -1px 50px yellow;
+ }
+ 70%{
+ box-shadow: -1px 0px 50px yellow;
+ }
+ 80%{
+ box-shadow: -1px 1px 50px yellow;
+ }
+ 90%{
+ box-shadow: 0px 1px 50px yellow;
+ }
+ 100%{
+ filter:hue-rotate(360deg);
+ -webkit-filter:hue-rotate(360deg);
+ }
+ }
+ .text {
+  padding-bottom:50px;
+ }
+  .back {
+   font-size:25px;
+   margin-top:10px;
+   display:block;
+   line-height:55px;
+   width:20%;
+   text-decoration:none;
+   height:50px;
+   background:white;
+   color:black;
+   border-radius:15px;
+  }
+  .back:hover{
+   border:2px solid white;
+   background:transparent;
+   box-sizing:border-box;
+   color:white;
+  }
+  .pointer {cursor: pointer;}
+  
+  .crd{
+			color:white;
+			font-size: 18px;
+			font-family: Almendra Display;
+			font-style:italic;
+			text-shadow: 4px 4px 4px black;
+ }
+</style>
+<script>
+    function showdate() {
+  var dt = new Date();
+    Hour= dt.getHours();
+  Minute= dt.getMinutes();
+     Day=dt.getDate();
+   Month=dt.getMonth()+1;
+   Year=dt.getFullYear();
+if (Minute < 10) { Minute = "0" + Minute; };
+if (Hour < 10) { Hour = "0" + Hour; };
+document.getElementById("date").innerHTML = (Day+"/"+Month+"/"+Year);
+document.getElementById("clock").innerHTML = (Hour+":"+Minute);
+  }
+  
+  setInterval(showdate,0);
+</script>
+</head>
+
+<body class="bg-darker">
+<div id="container"  style="">
+<hr>
+<span id="date" ></span><span id="clock" ></span>
+<h1 style='font-size:20px;text-align:center;color:white;font-family:Almendra Display;font-style:italic;text-shadow: 4px 4px 4px black;color:white'>PS4 Host for ver 5.05/6.72/7.02/7.5X by Games_World</h1><hr>
+<marquee style=' width:100%;'> <a style='font-size:15px;text-align:center;color:white; font-family:Almendra Display;font-style:italic;text-align:center;'>Alert: You will receive error message "There's not enough memory popup or PS4 may get crash.Keep trying until you get PS4 Jailbreak done. "</a></marquee>
+<h1 id=msgs2 style='font-size:16px;text-align:center;color:white;font-family:Almendra Display;font-style:italic;text-shadow: 4px 4px 4px black;color:white' >Choose firmware of your PS4 Console</h1><br>
+<div style="text-align:center"  id="MyItems">
+<a href="505FW/index.html"><button class="pointer" onMouseOver="msgs2.innerHTML='Ps4 Exploit ver 5.05FW'"; onmouseout="msgs2.innerHTML='Choose firmware of your PS4 Console '"  type="button"><B>FW-5.05</B></button></a>
+<a href="672FW/index.html"><button class="pointer" onMouseOver="msgs2.innerHTML='Ps4 Exploit ver 6.72FW'"; onmouseout="msgs2.innerHTML='Choose firmware of your PS4 Console'"  type="button"><B>FW-6.72 </B></button></a>
+<a href="702FW/index.html"><button class="pointer" onMouseOver="msgs2.innerHTML='Ps4 Exploit ver 7.02FW'"; onmouseout="msgs2.innerHTML='Choose firmware of your PS4 Console'"  type="button"><B>FW-7.02</B></button></a>
+<a href="75XFW/index.html"><button class="pointer" onMouseOver="msgs2.innerHTML='Ps4 Exploit ver 7.5XFW'"; onmouseout="msgs2.innerHTML='Choose firmware of your PS4 Console'"  type="button"><B>FW-7.5X</B></button></a><br><br>
+
+  <main style="position:relative;color:#8c8c8c;font-weight:bold; font-size:14px;font-family: Almendra Display;font-style:italic;">  
+	 <div id="instructions">
+        <h3>Jailbreak Process and Troubleshooring isntructions</h3>
+		<p>Choose your PS4 firmware to jailbreak from about button .Then page will automatically cached in your PS4 browser. You can disconnect your PS4 from the Internet and, from now on keep using the jailbreak offline. To make this easier, feel free to add a bookmark.</p>
+        <p>To jailbreak, click on the payload that you want to load. Provided everything goes well, in about 20 seconds you will see the message <i>"You're all set!"</i>, followed by <i>"There is not enough free system memory"</i>. Usually though, you will need multiple attempts.</p>
+        <p><b>Several messages can appear:</b>
+          <ul>
+            <b>"There is not enough free system memory"</b>: It means the WebKit exploit has failed. Press "OK" to try again. This is normal, as your chances to succeed are about 10%.
+            <b>"Jailbreak failed! Reboot your PS4 and try again"</b>: In such cases you must reboot, preferably without closing the dialog box. The system might then crash, which looks like an instant power down. If the system crashes, press the power button on the PS4 to turn it on again, then retry.</li>
+            <b>"Failed to setup a relative read primitive"</b>: This can happen when you move your controller's analog sticks while the jailbreak is still trying to load. Do not move the analog sticks. After pressing "OK", you can resume jailbreaking without rebooting.</li>
+            <b>"You're all set!"</b>: The jailbreak was successful, and the selected payload has been loaded into memory.</li>
+          </ul>
+        </p>
+        <p>Loading a HEN/GoldHEN or Mira payload unlocks installed homebrew applications and enables "debug settings": leave the browser and go to "Settings - *Debug Settings - Game - Package Installer" to install homebrew PKG files from the root folder of an exFAT-formatted USB storage device.
+          <br><b>Once you have enabled debug settings, do not ever go into "*Debug Settings - System - IDU Mode", or your PS4 will brick!</b>
+        </p>
+        <p>You can also send your own payload files from a computer. First, load the "Netcat" payload and wait for it to succeed, in which case the browser's output stops at <i>"[+] Waiting for payload ..."</i>. Then, on your computer, use a Netcat program to send the payload file to the PS4.</p>
+      </div>
+  <div >
+  </main>
+ <div class="content" >
+ 	<div>
+<br><span class="crd" >Designed & Compiled by :</span >&nbsp;&nbsp; <a class="hue"style="color:white;font-size: 16px;font-family: Almendra Display;font-style:italic;text-shadow: 4px 4px 4px black;">PSJ</a>
+ 	 
+		 </div><a href="Moreinfo.html"><button class="hue btn btn-main" type="button" >More Info</button></a>
+ </div>
+</div>
+</body>
+
+</html>
